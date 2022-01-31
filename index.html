@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Class_12</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<section class="py-5 bg-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text"  id="firstName"placeholder="First Name"  class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" placeholder="Last Name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="abusayed.info@gmail.com" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="aB#&sayed" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="phoneNumber">Phone Number </label>
+                    <input type="tel" id="phoneNumber" placeholder="0183234323822" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <textarea id="address" placeholder="Type your Address" class="form-control" cols="20" rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="district"> District Name</label>
+                    <select class="form-control" id="district">
+                        <option value="" disabled selected><--Select a district--></option>
+                        <optgroup label="Chittagong Division ">
+                        <option value="chandpuer">Chandpur</option>
+                        <option value="cumilla">Cumilla</option>
+                            <option value="matlab">Matlab Uttar</option>
+                            <option value="matlabNorth">Matlab North</option>
+                        </optgroup>
+                        <optgroup label="Dhaka Division">
+                        <option value="dhaka">Dhaka</option>
+                        <option value="gazipur">Gazipur</option>
+                        <option value="saver">sevar</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label> Gender: </label>
+                    <div>
+                        <label><input type="radio" name="gender" value="male">Male</label>
+                        <label><input type="radio" name="gender" value="female">Female</label>
+                        <label><input type="radio" name="gender" value="others">Others</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="image">Image: </label>
+                    <input type="file" id="image">
+                </div>
+                <div class="form-group">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" class="form-control">
+                </div>
+                <div class="form-group">
+                    <labe>
+                        <input type="checkbox"> I agree with all terms & conditions
+                    </labe>
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-outline-danger" value="Submit">
+                </div>
+            </div>
+            <div class="col-md-6">
+
+            </div>
+        </div>
+    </div>
+</section>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
